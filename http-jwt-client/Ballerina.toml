@@ -1,0 +1,8 @@
+[package]
+org = "user"
+name = "http_jwt_client"
+version = "0.1.0"
+distribution = "2201.2.0-rc2"
+
+[build-options]
+observabilityIncluded = true
