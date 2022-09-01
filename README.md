@@ -37,6 +37,6 @@ be neglected.
 
 ## Handling native image failures for new samples
 
-    The above steps can be also used to create native images of new Ballerina samples. For a new sample 
+The above steps can be also used to create native images of new Ballerina samples. For a new sample 
 there can failures in building or running the native image. This [blog](https://simply-how.com/fix-graalvm-native-image-compilation-issues) consists useful informationon handling such errors. Also for failures which occur during the runtime 
 the [GraalVM Tracing Agent](https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/AutomaticMetadataCollection.md) can be used to generate the configuration files.
