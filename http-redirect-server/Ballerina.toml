@@ -2,7 +2,7 @@
 org = "user"
 name = "http_redirect_server"
 version = "0.1.0"
-distribution = "2201.2.0-rc2"
+distribution = "2201.2.0"
 
 [build-options]
 observabilityIncluded = true

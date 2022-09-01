@@ -1,4 +1,4 @@
-native-image -jar grpc-sample/target/bin/grpc_sample.jar \
+native-image -jar <path-to-the-jar-file> \
   --no-fallback \
   --enable-url-protocols=http,https \
   --initialize-at-build-time=org.slf4j \
@@ -16,4 +16,4 @@ native-image -jar grpc-sample/target/bin/grpc_sample.jar \
   -H:DynamicProxyConfigurationFiles=common-configs/proxy-config.json \
   -H:SerializationConfigurationFiles=common-configs/serialization-config.json \
   -H:MaxDuplicationFactor=25.0 \
-  -H:Name=graal-grpc-sample
+  -H:Name=<name-of-the-image>
